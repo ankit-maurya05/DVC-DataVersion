@@ -1,0 +1,4 @@
+# Data manipulation
+numpy
+pandas
+dvc

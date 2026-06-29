@@ -16,4 +16,3 @@ file_path=os.path.join(data_dir,"Sample_data.csv")
 df.to_csv(file_path,index=False)
 
 print(f'CSV file save to {file_path}')
-print(df)
