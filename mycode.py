@@ -5,7 +5,12 @@ data={'Name':['Ankit',"Shikha","Isha"],
       "Age":[25,22,23],
       "City":["Varanasi","Azamgarh","Allahabad"]}
 
+
+
 df=pd.DataFrame(data)
+
+new_row={"Name":"abc","Age":123,"City":"c1"}
+df.loc[len(df.index)]=new_row
 
 data_dir='data'
 
