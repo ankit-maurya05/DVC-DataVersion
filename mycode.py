@@ -11,6 +11,13 @@ df=pd.DataFrame(data)
 
 new_row={"Name":"abc","Age":123,"City":"c1"}
 df.loc[len(df.index)]=new_row
+print(f"After new_row: {len(df.index)} rows")
+print(df)
+
+new_row2={"Name":"abcd","Age":1234,"City":"c2"}
+df.loc[len(df.index)]=new_row2
+print(f"After new_row2: {len(df.index)} rows")
+print(df)
 
 data_dir='data'
 
